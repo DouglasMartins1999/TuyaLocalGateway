@@ -1,0 +1,15 @@
+{
+  "name": "tuya-tray",
+  "version": "1.0.0",
+  "description": "App for Turn on/off Light Bulbs using Tuya Cloud API",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Douglas Martins",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.0.2"
+  }
+}
