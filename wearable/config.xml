@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://martindoug/tuyacontroller" version="1.0.0" viewmodes="maximized">
+    <tizen:app-widget id="naum0rUt60.tuyacontroller.tuyacontroller" primary="true">
+        <tizen:widget-label>Tuya Controller</tizen:widget-label>
+        <tizen:widget-content src="widget/tuyacontroller/index.html">
+            <tizen:widget-size preview="widget/tuyacontroller/preview.png">2x2</tizen:widget-size>
+        </tizen:widget-content>
+    </tizen:app-widget>
+    <tizen:application id="naum0rUt60.tuyacontroller" package="naum0rUt60" required_version="4.0"/>
+    <author email="douglas.martins.m099@gmail.com">Douglas Martins</author>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.normal"/>
+    <feature name="http://tizen.org/feature/network.internet"/>
+    <icon src="icon.png"/>
+    <name>Tuya Controller</name>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:profile name="wearable"/>
+</widget>

@@ -4,3 +4,6 @@ devices.json
 settings.json
 .env
 out/
+.settings/
+.sign/
+settings.js

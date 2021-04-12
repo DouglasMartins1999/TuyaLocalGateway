@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../switcher.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    position: relative;
+    margin-top: 14%;
+}
+
+#type {
+    font-size: 38px;
+    font-weight: 800;
+}
+
+#device {
+    margin-top: 2px;
+    font-size: 34px;
+    font-weight: 200;
+    color: #CCC;
+}
+
+#device:active {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.togglers {
+    height: 50%;
+}
+
+.actions {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+}
+
+.actions:active {
+    background-color: rgba(0, 0, 0, 0.2);
+}
